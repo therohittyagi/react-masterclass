@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div id="root">
+      <!-- <h1>Hello World With Html</h1> -->
+    </div>
+
+    <!-- <script>
+      const heading = document.createElement("h1");
+      heading.innerHTML = "Hello World With JS";
+
+      const root = document.getElementById("root");
+      root.appendChild(heading);
+    </script> -->
+
+    <!-- getting react with CDN -->
+    <!-- this script tag is importing the React library (development version) into the HTML document from the provided URL, making React available for use within the web page. -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <!-- this script tag is importing the ReactDOM library (development version) into the HTML document from the provided URL, making ReactDOM available for use within the web page. ReactDOM is a library used to render React components into the DOM (Document Object Model). -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <!-- <script>
+      const heading = React.createElement(
+        "h1",
+        {},
+        "Hello World With React JS"
+      );
+      const root = ReactDOM.createRoot(document.getElementById("root"));
+      root.render(heading);
+    </script> -->
+
+    <!-- External JS File Using React -->
+    <script src="./App.js"></script>
+  </body>
+</html>
