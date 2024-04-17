@@ -49,10 +49,12 @@ const Title = () => {
 };
 
 const Number = 1000;
+const data = api.getData()
 
 const HeadingComponent = () => (
   <div id="container">
     <h2>{Number + 200}</h2>
+    {data}
     <h1>Namaste Functional Component</h1>
     <Title />
     {Title()}
