@@ -24,3 +24,7 @@
 note - whenever state variables update , react triggers a re concilation cycle(rerenders)
 
 # React Fiber - it is a new reconcilation process to efficientlly manupulate the dom 
+
+ # Cors proxy
+ -https://nordicapis.com/10-free-to-use-cors-proxies/
+ -https://github.com/Freeboard/thingproxy 
