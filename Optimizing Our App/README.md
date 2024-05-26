@@ -1,0 +1,1 @@
+# Single responsibility priciple
