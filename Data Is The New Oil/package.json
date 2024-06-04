@@ -1,10 +1,10 @@
 {
-  "name": "jo-dikhta-hai-vo-bikta-hai",
+  "name": "data-is-the-new-oil",
   "version": "1.0.0",
-  "description": "\"lecture 9- Food Ordering App Part - 6  & Tailwind\\\"",
+  "description": "lecture 10 - Food Ordering App Part - 6  & Data is the new oil",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest ",
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
